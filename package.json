@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "prepare": "yarn build"
+    "prepare": "yarn install && yarn build"
   },
   "keywords": [
     "next",
